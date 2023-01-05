@@ -39,3 +39,11 @@ main {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
+footer {
+    background-color: rgb(118, 160, 33);
+    color: rgb(255, 247, 236);
+    font-family:'Courier New', Courier, monospace;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+}

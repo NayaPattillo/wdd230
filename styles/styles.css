@@ -1,16 +1,13 @@
 body{
     max-width: 50%;
     margin: 0 auto;
+    font-family: 'Roboto Mono', monospace, Arial;
 }
 header {
-    background-color: rgb(118, 160, 33);
-    color: rgb(255, 247, 236);
-    font-family:'Courier New', Courier, monospace;
     display: grid;
     grid-template-columns: 1fr, 1fr;
     grid-template-rows: 200px;
     margin: 0 auto;
-    border-radius: 15px;
     align-items: center;
     justify-items: center;
 }
@@ -29,21 +26,16 @@ h2{
     display: block;
     margin-top: 15px;
     margin-bottom: 20px;
-    color: rgb(118, 160, 33);
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     text-decoration: underline;
 }
 main {
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
 footer {
-    background-color: rgb(118, 160, 33);
-    color: rgb(255, 247, 236);
-    font-family:'Courier New', Courier, monospace;
     margin: 0 auto;
     border-radius: 15px;
     text-align: center;
+    font-weight: bold;
 }

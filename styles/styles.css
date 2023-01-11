@@ -5,7 +5,7 @@ body{
 }
 header {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 200px;
     margin: 0 auto;
     align-items: center;

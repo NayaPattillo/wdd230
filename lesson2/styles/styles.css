@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(6, 56, 2);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    width: 100%;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div{
+    background-color: rgb(212, 212, 212);
+    color: black;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+}
+.title{
+    background-color: rgb(6, 56, 2);
+    color: white;
+    margin-top: 0;
+    padding: 15px 0px 15px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+main p{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}

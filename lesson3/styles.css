@@ -1,0 +1,59 @@
+body{
+    font-family: 'Josefin Slab', serif;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+header{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #781111;
+    color: white;
+    padding: 25px;
+}
+a{
+    padding: 15px;
+    color: white;
+}  
+main{
+    text-align: center;
+}
+p{
+    font-family: 'Zilla Slab', serif;
+}
+#color1{
+    font-size: 50px;
+    background-color: #781111;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    width: 40%;
+    margin: 0 auto;
+}
+#color2{
+    font-size: 50px;
+    background-color: #f1d145;
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    width: 40%;
+    margin: 0 auto;
+}
+#color3{
+    font-size: 50px;
+    background-color: white;
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    width: 40%;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+@media only screen and (min-width: 600px){
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}

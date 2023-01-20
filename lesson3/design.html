@@ -8,13 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media.css">
     <title>lesson3 page2</title>
 </head>
 <body>
     <header>
         <h1>Design</h1>
-        <a href="index.html">Home</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="target-audience.html">Target Audience</a>
+        </nav>
     </header>
     <main>
         <h2>-Color Scheme</h2>
@@ -22,10 +26,23 @@
         <p id="color2">color 2</p>
         <p id="color3">color 3</p>
         <h2>-Typography</h2>
-        <p>Fonts: Josefin Slab, Zilla Slab</p>
+        <h3>Fonts:</h3>
+        <p id="j-ex">Josefin Slab</p>
+        <p>Zilla Slab</p>
         <h1>Header 1 example</h1>
-        <h2>Header 2 example</h2>
+        <h2 class="example">Header 2 example</h2>
+        <h3>Header 3 example</h3>
         <p>Paragraph example</p>
     </main>
+    <footer>
+        <p>
+            &copy; <span id="year"></span> | Naya A. Pattillo | Utah
+        </p>
+        <p>
+            Last Updated: <span id="lastUpdate"></span>
+        </p>
+    </footer> 
+
+    <script src="scripts/script.js"></script> 
 </body>
 </html>

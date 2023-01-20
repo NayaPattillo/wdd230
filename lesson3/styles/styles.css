@@ -12,15 +12,46 @@ header{
     color: white;
     padding: 25px;
 }
+footer{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #781111;
+    color: white;
+    padding: 5px;
+}
+h2{
+    text-decoration: underline;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 25px;
+}  
 a{
     padding: 15px;
     color: white;
-}  
+}
 main{
     text-align: center;
 }
 p{
     font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+}
+ul{
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+}
+#scenarios{
+    width: 40%;
+}
+li{
+    padding-top: 10px;
 }
 #color1{
     font-size: 50px;
@@ -50,10 +81,14 @@ p{
     margin: 0 auto;
     border: 3px solid black;
 }
-
-@media only screen and (min-width: 600px){
-    img{
-        width: 400px;
-        height: 400px;
-    }
+.example{
+    text-decoration: none;
+}
+#j-ex{
+    font-family: 'Josefin Slab', serif;
+}
+.target-para{
+    border: 3px solid #781111;
+    width: 40%;
+    margin: 0 auto;
 }

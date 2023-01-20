@@ -8,21 +8,53 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media.css">
     <title>lesson3 page3</title>
 </head>
 <body>
     <header>
         <h1>Target Audience</h1>
-        <a href="index.html">Home</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="design.html">Design</a>
+        </nav>
     </header>
     <main>
-        <h2>-Discription</h2>
-        <p>...</p>
+        <h2>-Description</h2>
+        <p class="target-para">The target audience of this website are local business owners and community members
+            looking for various resources and information about the community and local economy.
+        </p>
         <h2>-Two Personas</h2>
-        <p>...</p>
+        <ul>
+            <li>David Reed is a 33 year old small business owner who lives in the area. He has a small family
+                 of a wife and two kids. His business is a small book store in the main part of town. He wants to find
+                 out the demographic of people who would like to join a book club and where in the community he should 
+                 advertise. He is looking through the site on his computer at home.
+            </li>
+            <li>Ricky Baker is 25 years old and owns a food truck. He is single and lives in a small apartment with 
+                two roomates. He is looking for community gatherings and events that he could cater to. He is browsing 
+                through the site on his phone in his truck.
+            </li>
+        </ul>
         <h2>-Five scenarios</h2>
-        <p>...</p>
+        <ul id="scenarios">
+            <li>What events are happening this week and where?</li>
+            <li>Where is the heaviest foot traffic in town?</li>
+            <li>Where can I find marketing opportunities?</li>
+            <li>How do I become a member of the chamber?</li>
+            <li>Is there a program or opportunity that could help my business grow?</li>
+        </ul>
     </main>
+    <footer>
+        <p>
+            &copy; <span id="year"></span> | Naya A. Pattillo | Utah
+        </p>
+        <p>
+            Last Updated: <span id="lastUpdate"></span>
+        </p>
+    </footer> 
+
+    <script src="scripts/script.js"></script> 
 </body>
 </html>

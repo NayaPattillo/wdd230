@@ -23,11 +23,17 @@ footer{
 h2{
     text-decoration: underline;
 }
+/*
 nav{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     font-size: 25px;
+}
+*/
+nav{
+    display: flex;
+    flex-direction: column;
 }  
 a{
     padding: 15px;

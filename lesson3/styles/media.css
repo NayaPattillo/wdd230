@@ -3,6 +3,7 @@
         width: 400px;
         height: 400px;
     }
+    /*
     nav{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -10,5 +11,14 @@
         padding: 15px;
         color: white;
         font-size: 30px;
+    }
+    */
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    nav a{
+        flex: 1 1 auto;
+        font-size: 1.1rem;
     }
 }

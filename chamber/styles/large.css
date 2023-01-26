@@ -1,0 +1,38 @@
+@media only screen and (min-width: 992px){
+    
+    #primaryNav{
+        margin-top: 50px;
+    }
+    #primaryNav ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2vw;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-bottom: .8em;
+        width: 100%;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    #primaryNav ul li a{
+        display: block;
+        text-decoration: none;
+        color: #f1d145;
+        width: 100%;
+    }
+    #primaryNav ul li a:hover{
+        background-color: black;
+    }
+
+    button{
+        display: none;
+    }
+    img {
+        width: 400px;
+    }
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+}

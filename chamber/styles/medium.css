@@ -1,0 +1,108 @@
+@media only screen and (min-width: 600px){
+    body{
+        font-family: 'Josefin Slab', serif;
+        padding: 0;
+        margin: 0;
+    }
+    p{
+        font-family: 'Zilla Slab', serif;
+    }
+    footer{
+        background-color: #781111;
+        color: #f1d145;
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    footer a{
+        color: #f1d145;
+    }
+    footer a:hover{
+        color: white;
+    }
+    .footer-logo{
+        width: 100px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    button{
+        margin: .2rem 2vw;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+        color: #f1d145;
+    }
+    nav {
+        border-bottom: 1px solid #f1d145;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-bottom: .8em;
+        width: 100%;
+      }
+    nav ul li {
+        width: 100%;
+      }
+    nav ul a {
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: #f1d145;
+        width: 100%;
+      } 
+    nav ul a:hover {
+        background-color: black;
+      }
+    .open{
+        display: none;
+    }
+
+    .title{
+        text-align: center;
+        border-bottom: 1px solid #f1d1459a;
+    }
+    header {
+        background-color: #781111;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    img {
+        width: 300px;
+    }
+    h1 {
+        color: white;
+    }
+
+    #date{
+        color: #f1d145;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: .5rem;
+    }
+    .social{
+        padding: .5rem;
+        margin: 15px;
+        text-align: center;
+    }
+    .social a{
+        color: #f1d145;
+        margin: 15px;
+        text-align: center;
+        padding: .5rem;
+    }
+    .social a:hover{
+        background-color: black;
+    }
+
+
+    main{
+        display: grid;
+        
+    }
+    div{
+        background-color: #f1d1459a;
+    }
+}

@@ -28,7 +28,7 @@
     button{
         display: none;
     }
-    img {
+    .header-logo {
         width: 400px;
     }
     h1 {

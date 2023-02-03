@@ -12,10 +12,11 @@ button.addEventListener('click', function() {
 
     const delButton = document.createElement('button');
     listElements.appendChild(delButton);
-    delButton.textContent = 'delete';
+    delButton.textContent = 'X';
     delButton.addEventListener('click', () => {
         list.removeChild(listElements);
     });
     
     input.focus();
+
 });

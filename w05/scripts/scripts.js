@@ -4,7 +4,6 @@ const list = document.querySelector("#list");
 
 button.addEventListener('click', function() {
     const item = input.value;
-    input.value = '';
 
     const listElements = document.createElement('li');
     listElements.innerHTML = item;
@@ -19,4 +18,9 @@ button.addEventListener('click', function() {
     
     input.focus();
 
+    if (input.value == "") {
+        alert("There is no input");
+        return false;
+      }
+    input.value = '';
 });

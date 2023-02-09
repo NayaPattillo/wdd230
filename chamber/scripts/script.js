@@ -26,11 +26,13 @@ x.onclick = toggleMenu;
 
 const newDate = new Date();
 let weekDay = newDate.getDay();
-let message = '';
+let message;
 if (weekDay = 'Monday'){
     message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
-}
-else if (weekDay = 'Tuesday'){
+}else if (weekDay = 'Tuesday'){
     message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 }
-message = document.querySelector('#message').textContent;
+else{
+  message = '';
+}
+document.querySelector('#message').textContent = message;

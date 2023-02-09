@@ -125,12 +125,22 @@
     }
     .hero{
         grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
     .event{
         grid-row: 2/3;
     }
     .weather{
         grid-row: 3/4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .weather h4{
+        text-decoration: underline;
     }
     .news{
         grid-row: 4/5;
@@ -154,13 +164,9 @@
     }
 
 
-    .hero-img{
-        width: 100%;
-        height: 70%;
-        margin-bottom: 20px;
-    }
     .weather-img{
-        width: 100%;
+        width: 50%;
+        border: 3px solid black;
     }
     .joinbutton{
         background-color: #781111;
@@ -181,7 +187,7 @@
         border: 3px solid black;
     }
     .fair-img{
-        width: 80%;
+        width: 60%;
         border: 3px solid black;
     }
 }

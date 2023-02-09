@@ -19,7 +19,8 @@
         <section class="title">
             <h1>Bozeman MT Chamber of Commerce</h1>
             <p id="message"></p>
-            <img class="header-logo" src="images/commerce-logo.png" alt="logo">
+            <img class="header-logo" src="images/commerce-logo.png" alt="logo"
+            srcset="images/logo1.png 1x, images/logo2.png 2x, images/commerce-logo.png 3x">
         </section>
         <button id="hamburgerBtn"><span>&#9776;</span></button>
         <nav id="primaryNav">
@@ -42,18 +43,26 @@
     <main>
         <div class="hero">
             <h2>Welcome to Bozeman!</h2>
-            <img class="hero-img" src="images/hero-img.jpg" alt="hero-img">
+            <!--<img class="hero-img" src="images/hero-img.jpg" alt="hero-img">-->
+            <img src="images/wdd230-org.jpg" sizes="50vw"
+            srcset="images/small.jpg 350w, images/medium.jpg 500w, images/large.jpg 800w">
             <a class="joinbutton" href="#">Join the Chamber</a>
         </div>
         <div class="event">
             <h3>Events</h3>
             <h3>Community Fair</h3>
             <p>Mon-Sat 8am-5pm</p>
-            <img class="fair-img" src="images/fair.jpg" alt="fair icon">
+            <img class="fair-img" src="images/fair.jpg" alt="fair icon" sizes="50vw"
+            srcset="">
         </div>
         <div class="weather">
             <h3>Weather</h3>
-            <img class="weather-img" src="images/weather.jpg" alt="weather forcast">
+            <img class="weather-img" src="images/weather/weather.jpg" alt="weather forcast" sizes="50vw"
+            srcset="images/weather/weatherSmall.jpg 200w, images/weather/weatherMedium.jpg 450w, images/weather/weatherLarge.jpg 600w">
+            <h3><span id="temp">33</span>&#8451;</h3>
+            <h4>Partly Cloudy</h4>
+            <p>Wind Speed: <span id="windSpeed">2.5</span> km/h</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
         </div>
         <div class="news">
             <h3>News Release</h3>
@@ -97,5 +106,6 @@
         </p>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

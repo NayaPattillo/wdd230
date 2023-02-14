@@ -194,4 +194,8 @@
         width: 60%;
         border: 3px solid black;
     }
+
+    #message {
+        color: #f1d145;
+    }
 }

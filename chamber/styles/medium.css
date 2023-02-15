@@ -73,7 +73,7 @@
     .header-logo {
         width: 300px;
     }
-    h1 {
+    .title h1 {
         color: white;
     }
 
@@ -99,7 +99,7 @@
     }
 
 
-    main{
+    #indexMain{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -107,7 +107,7 @@
         width: 90%;
         margin: 0 auto;
     }
-    main div{
+    #indexMain div{
         background-color: #f1d1459a;
         border: 3px solid rgba(0, 0, 0, 0.61);
         margin: 5px;
@@ -198,4 +198,48 @@
     #message {
         color: #f1d145;
     }
+
+/*dicover page*/
+    #Visits{
+        color: #f1d145;
+    }    
+    #discoverMain{
+        text-align: center;
+    }
+    #discoverMain section{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2fr 1fr;
+        padding: 20px;
+        align-items: center;
+        border-top: 3px solid #f1d145;
+    }
+    #discoverMain section img{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #discoverMain section img:hover{
+        box-shadow: 10px 10px 5px #781111;
+    }
+    #discoverMain section h2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color: #f1d145;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #discoverMain p{
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        border: 3px solid #781111;
+    }
+     
+    img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+    
 }
+
+

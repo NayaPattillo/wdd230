@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <title>Discover</title>
+    <!--No Independant CSS pages-->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <header>
+        <section class="title">
+            <h1>Discover</h1>
+            <p id="Visits">Last visited: <span id="userVisits"></span> days ago</p>
+            <img class="header-logo" src="images/commerce-logo.png" alt="logo"
+                srcset="images/logo1.png 1x, images/logo2.png 2x, images/commerce-logo.png 3x">
+        </section>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </header>
+    <main id="discoverMain">
+        <h1>Bozeman Montana</h1>
+        <h2>The most livable place.</h2>
+        <section id="museum">
+            <img class="muesumImg" src="discoverImages/museum.jpg" alt="museum of the rockies" sizes="50vw"
+            srcset="discoverImages/museumSmall.jpg 200w, discoverImages/museumMed.jpg 500w, discoverImages/museumLarge.jpg 800w"
+            loading="lazy">
+            <h2>The Museum of the Rockies</h2>
+            <p>In 2022 we had 209,406 visitors to our museum, 330,000 visitors to our museum website, and 5,680 organization members.</p>
+        </section>
+        <section id="mainstreet">
+            <img class="mainstreetImg" src="discoverImages/mainstreet.jpg" alt="mainstreet" sizes="50vw"
+            srcset="discoverImages/mainstreetSmall.jpg 200w, discoverImages/mainstreetMed.jpg 500w, discoverImages/mainstreetLarge.jpg 800w"
+            loading="lazy">
+            <h2>Mainstreet, Downtown Bozeman</h2>
+            <p>There are 680 people living in downtown Bozeman. 47.8% of these people are milenials. 20.1% of this population work
+                in education or heathcare.
+            </p>
+        </section>
+        <section id="bigSky">
+            <img class="bigskyImg" src="discoverImages/bigsky.jpg" alt="big sky resort" sizes="50vw"
+            srcset="discoverImages/bigskySmall.jpg 200w, discoverImages/bigskyMed.jpg 500w, discoverImages/bigskyLarge.jpg 800w"
+            loading="lazy">
+            <h2>Big Sky Resort</h2>
+            <p>Big Sky is the largest ski resort in the western United States. Opened in late 1973, Big Sky Resort has more than 5,800 acres
+                 (9.1 sq mi; 23.5 km2) of terrain and a vertical drop of 4,350 feet (1,330 m).</p>
+        </section>
+        <section id="forest">
+            <img class="forestImg" src="discoverImages/forest.jpg" alt="cluster gallatin forest" sizes="50vw"
+            srcset="discoverImages/forestSmall.jpg 200w, discoverImages/forestMed.jpg 500w, discoverImages/forestLarge.jpg 800w"
+            loading="lazy">
+            <h2>Cluster Gallatin National Forest</h2>
+            <p>Established in 1899, this 1.8-million acre forest spans six mountain ranges and provides a habitat for a full 
+                complement of native fauna, including four federally listed threatened species - 
+                the grizzly bear, gray wolf, bald eagle, and the Canada lynx.</p>
+        </section>
+        <section id="hotsprings">
+            <img class="hotspringsImg" src="discoverImages/hotsprings.jpg" alt="hot springs" sizes="50vw"
+            srcset="discoverImages/hotspringsSmall.jpg 200w, discoverImages/hotspringsMed.jpg 500w, discoverImages/hotspringsLarge.jpg 800w"
+            loading="lazy">
+            <h2>Bozeman Hot Springs</h2>
+            <p>These hot springs feature 12 pool ranging from 59-106 degrees. Single time admission prices range from 8-17 dollars.</p>
+        </section>
+    </main>
+    <footer>
+        <img class="footer-logo" src="images/commerce-logo.png" alt="logo">
+        <p>Bozeman MT Chamber of Commerce</p>
+        <p>2000 Commerce Way Bozeman, MT 59715</p>
+        <p>406.586.5421</p>
+        <a href="#">Location Map</a>
+        <p>
+            &copy; <span id="year"></span> Bozeman Chamber | Naya A. Pattillo | WDD230 Project |  Last Updated: <span id="lastUpdate"></span>
+        </p>
+    </footer>
+
+    <script src="scripts/discoverScripts.js"></script>
+</body>
+</html>

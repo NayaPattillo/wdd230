@@ -11,23 +11,18 @@ f= 35.74 + 0.6215 * t**0.16 + 0.4275 * t * s**0.16
 */
 
 
-temp = document.querySelector('#temp');
-wS = document.querySelector('#windSpeed');
+const temp = document.querySelector('#temp');
+const wS = document.querySelector('#windSpeed');
+const windChill = document.querySelector('#windChill');
 
-function calculate() {
-    windChill = 35.74 + 0.6215 * temp**0.16 + 0.4275 * temp * wS**0.16;
-    return windChill
-}
+let windC = 35.74 + (0.6215 * (temp**0.16)) + (0.4275 * temp * (wS**0.16));
+windChill.innerHTML = windC;
 
 function display() {
-    if (temp <= 10) {
-        document.querySelector('#windChill').innerHTML = calculate() + '&#8451;';
-    } else if (wS > 4.82803) {
-        document.querySelector('#windChill').innerHTML = calculate() + '&#8451;';
-    }   
-    else {
-        document.querySelector('#windChill').innerHTML = `N/A`;
-    }
+    if (temp <= 50 && wS > 3){
+        windChill.innerHTML = windC + '&#8457;';
+    } else {
+        windChill.innerHTML = 'N/A';
+    } 
 }
-
 display();

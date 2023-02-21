@@ -7,20 +7,24 @@ if the input values did not meet the requirements
 /*
 f is the wind chill factor in Fahrenheit, t is the air average temperature in Fahrenheit, 
 and s is the wind speed in miles per hour.
-f= 35.74 + 0.6215 * t**0.16 + 0.4275 * t * s**0.16
+f = 35.74 + (0.6215 * t) - (35.75 * (s**0.16)) + (0.4275 * t * (s**0.16))
 */
 
 
 const temp = document.querySelector('#temp');
 const wS = document.querySelector('#windSpeed');
 const windChill = document.querySelector('#windChill');
+console.log(temp, wS);
 
-let windC = 35.74 + (0.6215 * (temp**0.16)) + (0.4275 * temp * (wS**0.16));
-windChill.innerHTML = windC;
-
+function calculate(t, s){
+    let windC = 35.74 + (0.6215 * t) - (35.75 * (s**0.16)) + (0.4275 * t * (s**0.16));
+    console.log(windC);
+    return windC
+}
+console.log(calculate());
 function display() {
     if (temp <= 50 && wS > 3){
-        windChill.innerHTML = windC + '&#8457;';
+        windChill.innerHTML = calculate(temp, wS) + '&#8457;';
     } else {
         windChill.innerHTML = 'N/A';
     } 

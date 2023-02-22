@@ -30,3 +30,4 @@ function display() {
     } 
 }
 display();
+console.log(windChill);

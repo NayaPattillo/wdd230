@@ -4,6 +4,7 @@
         font-family: 'Josefin Slab', serif;
         padding: 0;
         margin: 0;
+        width: 100%;
         overflow-x: hidden;
     }
     p{
@@ -67,17 +68,17 @@
         font-size: 2rem;
         color: #f1d145;
     }
-    Nav ul {
+    nav ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         padding-bottom: .8em;
         width: 100%;
       }
-    #primaryNav ul li {
+    .primaryNav ul li {
         width: 100%;
       }
-    #primaryNav ul a {
+    .primaryNav ul a {
         display: block;
         padding: .8rem 2vw;
         text-decoration: none;
@@ -85,7 +86,7 @@
         border-top: 1px solid #f1d1459a;
         width: 100%;
       } 
-    #primaryNav ul a:hover {
+    .primaryNav ul a:hover {
         background-color: black;
       }
     .open{
@@ -258,5 +259,63 @@
         transition: filter 0.5s;
     }
     
+
+    /*Join form*/
+    form fieldset{
+        margin: 2rem 0;
+        border: 1px solid #781111;
+        border-radius: 10px;
+        padding: .5rem 2%;
+        background-color: #f1d14577;
+    }
+    form legend{
+        color: #781111;
+        margin: 0 1rem;
+        padding: 0 .5rem;
+    }
+    
+    form label.top, form div{
+        display: block;
+        padding-top: 1rem;
+        color: #781111;
+        font-size: .8rem;
+    }
+    form label.top input, form label.top select{
+        display: block;
+        font-size: 1rem;
+        border: 1px solid #f1d145;
+        border-radius: 4px;
+        padding: .75rem;
+        color: black;
+        width: 100%;
+        max-width: 20rem;
+        background-color: (0,0,0,0.1);
+    }
+    form label.radio{
+        display: block;
+        padding: .75rem 0;
+        color: black;
+    }
+    form input.submitBtn{
+        border: none;
+        background-color: #781111;
+        color: #f1d145;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+    }
+    form input.submitBtn:hover{
+        color: #781111;
+        background-color: #f1d145;
+    }
+    
+    form label.top input:required{
+        border-left: #781111 solid 6px;
+    }
+    form label.top input:required:valid{
+        border-left: #f1d145 solid 6px;
+    }
 }
 

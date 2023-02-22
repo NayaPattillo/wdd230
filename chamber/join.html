@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="chamber home page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+    <title>Join</title>
+</head>
+<body>
+    <header>
+        <section class="title">
+            <h1>Join Bozeman Montana Chamber of Commerce</h1>
+            <img class="header-logo" src="images/commerce-logo.webp" alt="logo"
+            srcset="images/logo1.webp 1x, images/logo2.webp 2x, images/commerce-logo.webp 3x">
+        </section>
+        <button class="hamburgerBtn"><span>&#9776;</span></button>
+        <nav class="primaryNav">
+            <ul>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Business Position<input type="text" pattern="[A-Za-z]{7}"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" required></label>
+                <label class="top">Business Name/Title* <input type="text" name="Bname" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership options</legend>
+                <label class="radio"><input type="radio" name="option" value="NP"> Non-Profit Membership (free)</label>
+                <label class="radio"><input type="radio" name="option" value="bronze"> Bronze Membership</label>
+                <label class="radio"><input type="radio" name="option" value="silver"> Silver Membership</label>
+                <label class="radio"><input type="radio" name="option" value="gold"> Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Description</legend>
+                <textarea rows="5" cols="33" placeholder="Tell us about your business!"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Join The Chamber" class="submitBtn">
+
+        </form>
+    </main>
+    <footer>
+        <img class="footer-logo" src="images/logo1.webp" alt="logo">
+        <p>Bozeman MT Chamber of Commerce</p>
+        <p>2000 Commerce Way Bozeman, MT 59715</p>
+        <p>406.586.5421</p>
+        <a href="#">Location Map</a>
+        <p>
+            &copy; <span class="year"></span> Bozeman Chamber | Naya A. Pattillo | WDD230 Project |  Last Updated: <span class="lastUpdate"></span>
+        </p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>

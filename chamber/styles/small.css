@@ -317,5 +317,16 @@
     form label.top input:required:valid{
         border-left: #f1d145 solid 6px;
     }
+    #home-link{
+        text-decoration: none;
+        background-color: #781111;
+        color: #f1d145;
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+    #home-link:hover{
+        background-color: black;
+    }
 }
 

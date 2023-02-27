@@ -9,8 +9,6 @@ f is the wind chill factor in Fahrenheit, t is the air average temperature in Fa
 and s is the wind speed in miles per hour.
 f = 35.74 + (0.6215 * t) - (35.75 * (s**0.16)) + (0.4275 * t * (s**0.16))
 */
-
-
 const t = document.getElementById('temp').innerHTML;
 const s = document.getElementById('windSpeed').innerHTML;
 const windChill = document.getElementById('windChill');

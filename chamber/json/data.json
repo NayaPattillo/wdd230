@@ -1,0 +1,73 @@
+[
+    {"name": "Bread and Butter BookStore",
+    "address": "45 Mainstreet",
+    "phone": "123-555-1234",
+    "website": "Bread&ButterBooks.com",
+    "img": "",
+    "level": "Gold"
+    },
+        
+    {"name": "Ricky's Food Truck",
+    "address": "none",
+    "phone": "123-444-5678",
+    "website": "RickysFood.com",
+    "img": "",
+    "level": "Gold"
+    },
+
+    {"name": "Lilies Hair Salon",
+    "address": "16W 14N Crab Apple St.",
+    "phone": "123-456-7890",
+    "website": "LiliesSalon.com",
+    "img": "",
+    "level": "Silver"
+    },
+
+    {"name": "Main Street Movies",
+    "address": "12 Mainstreet",
+    "phone": "123-000-1234",
+    "website": "MainStreetMovies.com",
+    "img": "",
+    "level": "Gold"
+    },
+
+    {"name": "One and Done Repairs",
+    "address": "34W 400N Pair St.",
+    "phone": "123-111-1234",
+    "website": "OneAndDoneRepairs.com",
+    "img": "",
+    "level": "Bronze"
+    },
+
+    {"name": "Sugar and Spice Bakery",
+    "address": "20 Mainstreet",
+    "phone": "123-222-1234",
+    "website": "SugarNSpice.com",
+    "img": "",
+    "level": "Silver"
+    },
+
+    {"name": "Nick Nack Souvenirs",
+    "address": "34 Mainstreet",
+    "phone": "123-333-1234",
+    "website": "NickNacks.com",
+    "img": "",
+    "level": "Bronze"
+    },
+
+    {"name": "Snowman Sports",
+    "address": "500W 34N Pair St.",
+    "phone": "123-123-1234",
+    "website": "Snowman.com",
+    "img": "",
+    "level": "Gold"
+    },
+
+    {"name": "One Note Music Store",
+    "address": "25 Mainstreet",
+    "phone": "123-456-1234",
+    "website": "OneNote.com",
+    "img": "",
+    "level": "Gold"
+    }  
+]

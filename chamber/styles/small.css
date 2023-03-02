@@ -327,5 +327,24 @@
     #home-link:hover{
         background-color: black;
     }
+
+
+    /*directory page*/
+    div.cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	    align-items: center;
+        text-align: center;
+        background-color: #f1d145;
+    }
+    div.cards section{
+        background-color: #f1d145;
+        margin: 10px;
+        align-items: stretch;
+    }
+    div.cards img{
+        border: solid 3px black;
+        margin-top: 10px;
+    }
 }
 

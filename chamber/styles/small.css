@@ -323,6 +323,7 @@
         text-align: center;
         padding: 20px;
         display: block;
+        margin: 50px;
     }
     #home-link:hover{
         background-color: black;

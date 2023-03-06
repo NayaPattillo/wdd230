@@ -38,7 +38,7 @@
         </div>
     </header>
     <main>
-        <form method="get" action="thankyou.html">
+        <form method="get" action="thankyou.html" name="join">
 
             <fieldset>
                 <legend>Applicant Information</legend>
@@ -51,16 +51,20 @@
             </fieldset>
             <fieldset>
                 <legend>Membership options</legend>
-                <label class="radio"><input type="radio" name="option" value="NP"> Non-Profit Membership (free)</label>
-                <label class="radio"><input type="radio" name="option" value="bronze"> Bronze Membership</label>
-                <label class="radio"><input type="radio" name="option" value="silver"> Silver Membership</label>
-                <label class="radio"><input type="radio" name="option" value="gold"> Gold Membership</label>
+                <label class="radio"><input type="radio" name="option" value="NP"> Non-Profit Membership (free): Access
+                     to some chamber meetings, opportunities for financial support.</label>
+                <label class="radio"><input type="radio" name="option" value="bronze"> Bronze Membership: 5$ a month, Access to
+                    all chamber meetings.</label>
+                <label class="radio"><input type="radio" name="option" value="silver"> Silver Membership: 10$ a month,
+                    Employee Benefits Program.</label>
+                <label class="radio"><input type="radio" name="option" value="gold"> Gold Membership: 20$ a month,
+                     website spotlight, exclusive deals and discounts.</label>
             </fieldset>
             <fieldset>
                 <legend>Business Description</legend>
                 <textarea rows="5" cols="33" placeholder="Tell us about your business!"></textarea>
             </fieldset>
-
+            <input type="hidden" id="hiddenDate" name="hiddenDate">
             <input type="submit" value="Join The Chamber" class="submitBtn">
 
         </form>
@@ -76,4 +80,5 @@
         </p>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/join.js"></script>
 </body>

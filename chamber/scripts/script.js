@@ -37,22 +37,12 @@ else{
 }
 document.querySelector('#message').textContent = message;
 
-
 const displayMembers = (members) => {
   const spotlights = document.querySelector('div.spotlights');
 
   members.forEach((member) => {
 
-    let spotlight1 = document.createElement('div');
-    spotlight1.id = "one";
-
-    let spotlight2 = document.createElement('div');
-    spotlight2.id = "two";
-
-    let spotlight3 = document.createElement('div');
-    spotlight3.id = "three";
-
-    let spotlight = document.createElement('section');
+    let spotlight = document.createElement('div');
     let name = document.createElement('h3');
     let img = document.createElement('img');
     let p1 = document.createElement('p');
@@ -77,14 +67,9 @@ const displayMembers = (members) => {
     spotlight.appendChild(p3);
 
     if (member.level == "Gold"){
-      spotlight1.appendChild(spotlight);
-      spotlight2.appendChild(spotlight);
-      spotlight3.appendChild(spotlight);
-
-      spotlights.appendChild(spotlight1);
-      spotlights.appendChild(spotlight2);
-      spotlights.appendChild(spotlight3);
+      spotlights.appendChild(spotlight);
     }
+    
   }) 
 } 
 

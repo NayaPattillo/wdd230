@@ -196,7 +196,9 @@
         background-color: #781111;
         color: #f1d145;
         border-radius: 10%;
-        padding: 15px;
+        width: 60px;
+        height: 80px;
+        padding: 5px;
         text-decoration: none;
         border: 2px solid black;
     }
@@ -340,21 +342,101 @@
     
 
     /*directory page*/
-    div.cards{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	    align-items: center;
-        text-align: center;
-    }
+
     div.cards section{
         background-color: #f1d145;
         margin: 10px;
         align-items: stretch;
     }
-    div.cards img{
-        border: solid 3px black;
-        margin-top: 10px;
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
+    
+    #directory {
+        margin: 10px;
+        border: 1px solid #781111;
+        padding: 0.5rem;
+        max-width: 100%;
+    }
+    
+    .menu {
+        margin: 1rem auto;
+        padding: 0.5rem;
+        background-color: #781111;
+        color: #f1d145;
+        text-align: center;
+    }
+    
+    .menu button {
+        padding: 1rem;
+        font-weight: 700;
+    }
+    
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        align-items: center;
+    }
+    
+    .cards section {
+        flex-direction: column;
+        text-align: center;
+        height: 270px;
+    }
+    
+    .cards section > * {
+        margin: 0.1rem;
+    }
+    
+    .cards h3 {
+        font-family: "Caveat", cursive;
+    }
+    
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list section {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        margin: 0;
+        padding: 0.25rem;
+        border: 2px solid #781111;
+    }
+    
+    .list section > * {
+        margin: 0 1rem;
+    }
+    /*
+    .list section img {
+        display: none;  //smaller viewports only
+    }
+    */
+    .list section h3 {
+        font-size: 1rem;
+    }
+    
+    section h3 {
+        font-size: 1.5rem;
+    }
+    
+    section a {
+        font-size: 0.9rem;
+    }
+    
+    #directory div img {
+        height: 75px;
+        max-width: 100%;
+        border: solid 3px black;
+        margin-top: 10px; 
+    }
+    
+
+
 
     /*contact page*/
     #contact-grid{

@@ -46,3 +46,40 @@ async function getData() {
   }
   
 getData();
+
+
+
+const year = document.querySelector(".year");
+year.textContent = new Date().getFullYear();
+
+
+const lastModified = document.querySelector(".lastUpdate");
+lastModified.textContent = new Date(document.lastModified).toLocaleString();
+
+
+const toggleMenu = () => {
+  document.querySelector(".primaryNav").classList.toggle("open");
+}
+const x = document.querySelector(".hamburgerBtn")
+x.onclick = toggleMenu;
+
+
+
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".cards");
+
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("cards");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("cards");
+}

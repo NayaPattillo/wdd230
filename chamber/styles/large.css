@@ -29,7 +29,7 @@
         background-color: black;
     }
 
-    button{
+    .hamburgerBtn{
         display: none;
     }
     .header-logo {
@@ -103,5 +103,11 @@
     form label.top{
         font-size: 15px;
         color: black;
+    }
+
+    /*Directory page*/
+    .menu button {
+        padding: 1rem;
+        font-weight: 700;
     }
 }

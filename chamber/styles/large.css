@@ -21,6 +21,7 @@
     .primaryNav ul li a{
         display: block;
         text-decoration: none;
+        font-size: 20px;
         color: #f1d145;
         width: 100%;
     }

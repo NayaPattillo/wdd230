@@ -155,6 +155,11 @@
     .spotlights div{
         width: 20rem;
         height: 15rem;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .spotlights div img{
+        border: 3px solid black;
     }
     #three{
         display: none;
@@ -347,5 +352,29 @@
         border: solid 3px black;
         margin-top: 10px;
     }
+
+    /*contact page*/
+    #contact-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+        text-align: center;
+    }
+    #contact-info{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 20px;
+        border-top: 3px solid #f1d145;
+        border-bottom: 3px solid #f1d145;
+    }
+    #contact-info h2{
+        color: #781111;
+    }
+    #contact-img{
+        display: none;
+    }
+    #general-inquiries{
+        grid-row: 2/3;
+    }
+
 }
 

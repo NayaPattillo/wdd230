@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="chamber home page">
+    <meta name="description" content="contact page">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;400&display=swap" rel="stylesheet">
@@ -13,14 +13,12 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    
-    <title>Chamber Home Page</title>
+    <title>Contact Page</title>
 </head>
 <body>
     <header>
         <section class="title">
-            <h1>Bozeman MT Chamber of Commerce</h1>
-            <p id="message"></p>
+            <h1>Contact Us</h1>
             <img class="header-logo" src="images/commerce-logo.webp" alt="logo"
             srcset="images/logo1.webp 1x, images/logo2.webp 2x, images/commerce-logo.webp 3x">
         </section>
@@ -42,40 +40,30 @@
             <p id="date"></p>
         </div>
     </header>
-    <main id="indexMain">
-        <div class="hero">
-            <h2>Welcome to Bozeman!</h2>
-            <img id="index-hero-img" src="images/hero-img.jpg" alt="hero" sizes="50vw"
+    <main id="contact-grid">
+        <div id="contact-info">
+            <h1>Contact Us</h1>
+
+            <h2>Address:</h2>
+            <p>2000 Commerce Way Bozeman, MT 59715</p>
+
+            <h2>Phone:</h2>
+            <p>406.586.5421</p>
+
+            <h2>Email:</h2>
+            <p>kclark@bozemanchamber.com</p>
+
+            <h2>Office Hours:</h2>
+            <p>Mon-Fri 9AM-4PM</p>
+            <p>Sat-Sun Closed</p>
+        </div>
+        <img id="contact-img" src="images/hero-img.jpg" alt="hero" sizes="50vw"
             srcset="images/heroSmall.jpg 350w, images/heroMed.jpg 500w, images/heroLarge.jpg 800w">
-            <a class="joinbutton" href="join.html">Join the Chamber</a>
-        </div>
-        <div class="event">
-            <h3>Events</h3>
-            <h3>Community Fair</h3>
-            <p>Mon-Sat 8am-5pm</p>
-            <img class="fair-img" src="images/fair.jpg" alt="fair icon">
-        </div>
-        <div class="weather">
-            <h3>Weather</h3>
-            <img src="" alt="" id="weather-icon"/>
-            <h3><span id="temp"></span>&#8457;</h3>
-            <h4 id="condition">Partly Cloudy</h4>
-            <p>Wind Speed: <span id="windSpeed">4.5</span> mph</p>
-            <p>Wind Chill: <span id="windChill"></span></p>
-        </div>
-        <div class="news">
-            <h3>News Release</h3>
+        <div id="general-inquiries">
+            <h1>For General Inquiries</h1>
             <p>skjdhfepiufmoeif ef efehfpe ufe fe fe ehfiehjehdfkjehfesjf  eiuhejkhfkej 
                 ejhfjkefhkej hfkhgkeghekfhekf fhekfhkefhje dfjkgherghkegke kjhfeh ejkfhkejfh fhhejkrg
                 jkdfhkjghh jfhgjkhjhdfued fhek hefh hkehkhk ekhfkc ekkskjtjtkjd skdjfhd.</p>
-        </div>
-        <div class="spotlights">
-            
-        </div>
-        <div class="join">
-            <h3><a class="joinbutton" href="join.html">Join Us!</a></h3>
-            <p>Discover how becoming a member will help your buisness!</p>
-            <img class="join-img" src="images/case.png" alt="business img">
         </div>
     </main>
     <footer>
@@ -89,7 +77,5 @@
         </p>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/weather.js"></script>
 </body>
 </html>

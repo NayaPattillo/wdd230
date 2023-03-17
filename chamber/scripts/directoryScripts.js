@@ -10,12 +10,14 @@ const displayMembers = (members) => {
       let p1 = document.createElement('p');
       let p2 = document.createElement('p');
       let p3 = document.createElement('p');
+      let p4 = document.createElement('p');
   
-      // Build the h2 content out to show the prophet's full name - finish the template string
+      
       h2.textContent = `${member.name}`;
       p1.textContent = `Address: ${member.address}`;
       p2.textContent = `Phone Number: ${member.phone}`;
-      p3.textContent = `Website: ${member.website}`
+      p3.textContent = `Website: ${member.website}`;
+      p4.textContent = `Membership Level: ${member.level}`;
   
       // Build the image portrait by setting all the relevant attribute
       img.setAttribute('src', member.img);
@@ -30,6 +32,7 @@ const displayMembers = (members) => {
       card.appendChild(p1);
       card.appendChild(p2);
       card.appendChild(p3);
+      card.appendChild(p4);
   
       cards.appendChild(card);
     }) // end of forEach loop
@@ -38,7 +41,7 @@ const displayMembers = (members) => {
 async function getData() {
     const response = await fetch('json/data.json');
     const data = await response.json();
-    //console.table(data.prophets);
+    
     displayMembers(data.members);
   }
   

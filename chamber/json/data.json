@@ -60,7 +60,7 @@
     "phone": "123-123-1234",
     "website": "Snowman.com",
     "img": "directoryImages/wintersport.webp",
-    "level": "Gold"
+    "level": "Silver"
     },
 
     {"name": "One Note Music Store",
@@ -68,6 +68,6 @@
     "phone": "123-456-1234",
     "website": "OneNote.com",
     "img": "directoryImages/musicnote.webp",
-    "level": "Gold"
+    "level": "Bronze"
     }  
 ]}

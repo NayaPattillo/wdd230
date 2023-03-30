@@ -176,3 +176,72 @@ footer .logo{
     margin: 10px;
 }
 
+
+
+/*fresh*/
+form fieldset{
+    margin: 2rem 2rem;
+    border: 1px solid #4e8531ff;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend{
+    color: #4e8531ff;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #4e8531ff;
+    font-size: .8rem;
+}
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: 2px solid #f6e973ff;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+}
+form label.radio{
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+form input.submitBtn{
+    border: none;
+    background-color: #4e8531ff;
+    color: #f6e973ff;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form input.submitBtn:hover{
+    color: #4e8531ff;
+    background-color: #f6e973ff;
+}
+
+form label.top input:required{
+    border-left: black solid 6px;
+}
+form label.top input:required:valid{
+    border-left: #4e8531ff solid 6px;
+}
+#home-link{
+    text-decoration: none;
+    background-color: #4e8531ff;
+    color: #f6e973ff;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin: 50px;
+}
+#home-link:hover{
+    background-color: black;
+}

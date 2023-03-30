@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="bountiful foods fresh page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Bountiful Foods Fresh Page</title>
+    
+    <title>Join</title>
+</head>
+<body>
+    <header>
+        <section class="title">
+            <h1>Bountiful Foods</h1>
+            <h2>Greener. Healthier. Natural.</h2>
+            <a href="index.html">Home Page</a>
+        </section>
+        <section class="aboutUs">
+            <a href="aboutUs.html">About Us</a>
+            <img class="logo" src="images/BFLogo.png" alt="bountiful foods logo">
+        </section>
+        <section class="socials">
+            <a href="#">FaceBook</a>
+            <img class="socialimg" src="images/socials/facebook.png" alt="FaceBook">
+            <a href="#">Instagram</a>
+            <img class="socialimg" src="images/socials/instagram.PNG" alt="Instagram">
+            <a href="#">LinkedIn</a>
+            <img class="socialimg" src="images/socials/linkedIn.png" alt="LinkedIn">
+        </section>
+    </header>
+    <main>
+        <form method="get" name="fresh">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name <input type="text" name="lname"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose Your Fruit</legend>
+                <label class="radio"><input type="radio" name="fruit1" value="peach"> Peach</label>
+                <label class="radio"><input type="radio" name="fruit2" value="strawberry"> Strawberry</label>
+                <label class="radio"><input type="radio" name="fruit3" value="lemon"> Lemon</label>
+                <label class="radio"><input type="radio" name="fruit4" value="blueberry"> Blueberry</label>
+                <label class="radio"><input type="radio" name="fruit4" value="Orange"> Orange</label>
+                <label class="radio"><input type="radio" name="fruit4" value="Bannana"> Bannana</label>
+                <label class="radio"><input type="radio" name="fruit4" value="Kiwi"> Kiwi</label>
+            </fieldset>
+            <fieldset>
+                <legend>Extra</legend>
+                <textarea rows="5" cols="33" placeholder="Give us special instructions so we can get your drink just right!"></textarea>
+            </fieldset>
+            <input type="hidden" id="hiddenDate" name="hiddenDate">
+            <input type="submit" value="Order Your Drink!" class="submitBtn">
+
+        </form>
+    </main>
+    <footer>
+        <img class="logo" src="images/BFLogo.png" alt="bountiful foods logo">
+        <p>
+            &copy; <span class="year"></span> Bountiful Foods |  Last Updated: <span class="lastUpdate"></span>
+        </p>
+        <section class="footer-socials">
+            <img class="socialimg" src="images/socials/facebook.png" alt="FaceBook">
+            <img class="socialimg" src="images/socials/instagram.PNG" alt="Instagram">
+            <img class="socialimg" src="images/socials/linkedIn.png" alt="LinkedIn">
+        </section>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>

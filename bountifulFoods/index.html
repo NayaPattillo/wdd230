@@ -19,26 +19,26 @@
             <h1>Bountiful Foods</h1>
             <h2>Greener. Healthier. Natural.</h2>
         </section>
-        <section class="aboutUs">
+        <div class="aboutUs">
             <a href="aboutUs.html">About Us</a>
             <img class="logo" src="images/BFLogo.png" alt="bountiful foods logo">
-        </section>
-        <section class="socials">
+        </div>
+        <div class="socials">
             <a href="https://www.facebook.com/">FaceBook</a>
             <img class="socialimg" src="images/socials/facebook.png" alt="FaceBook">
             <a href="https://www.instagram.com/">Instagram</a>
             <img class="socialimg" src="images/socials/instagram.PNG" alt="Instagram">
             <a href="https://www.linkedin.com/">LinkedIn</a>
             <img class="socialimg" src="images/socials/linkedIn.png" alt="LinkedIn">
-        </section>
+        </div>
     </header>
     <main>
         <div class="slideShow">
-            <img class="slides" src="images/produce1.webp" loading="lazy">
-            <img class="slides" src="images/produce2.webp" loading="lazy">
-            <img class="slides" src="images/produce3.webp" loading="lazy">
-            <img class="slides" src="images/produce4.webp" loading="lazy">
-            <img class="slides" src="images/produce5.webp" loading="lazy">
+            <img class="slides" src="images/produce1.webp" loading="lazy" alt="foodimg">
+            <img class="slides" src="images/produce2.webp" loading="lazy" alt="foodimg">
+            <img class="slides" src="images/produce3.webp" loading="lazy" alt="foodimg">
+            <img class="slides" src="images/produce4.webp" loading="lazy" alt="foodimg">
+            <img class="slides" src="images/produce5.webp" loading="lazy" alt="foodimg">
             <div class="slide-display" style="width:100%">
               <div class="left" onclick="plusDivs(-1)">&#10094;</div>
               <div class="right" onclick="plusDivs(1)">&#10095;</div>
@@ -60,17 +60,17 @@
         <div class="weather">
             <h3 id="weatherTitle">Carlsbad Weather</h3>
             <img src="images/weather/weather.jpg" alt="weather-icon" id="weather-icon">
-            <h4 id="condition"></h4>
+            <h4>Condition: <span id="condition"></span></h4>
 
             <h3 id="tempH">Temp: <span id="temp"></span>&#8457;</h3>
             <h3 id="humidityH">Humidity: <span id="humidity">41%</span></h3>
 
             <h3 id="threeDayTitle">3 Day Forcast</h3>
-            <span id="threeDay">
+            <div id="threeDay">
                 <p>Tue. 50&#8457;</p>
                 <p>Wed. 63&#8457;</p>
                 <p>Thurs. 57&#8457;</p>
-            </span>
+            </div>
         </div>
         <section id="specialty">
             <h1>Make Your Own Specialty Drink!</h1>
@@ -84,11 +84,11 @@
         <p>
             &copy; <span class="year"></span> Bountiful Foods |  Last Updated: <span class="lastUpdate"></span>
         </p>
-        <section class="footer-socials">
+        <div class="footer-socials">
             <img class="socialimg" src="images/socials/facebook.png" alt="FaceBook">
             <img class="socialimg" src="images/socials/instagram.PNG" alt="Instagram">
             <img class="socialimg" src="images/socials/linkedIn.png" alt="LinkedIn">
-        </section>
+        </div>
     </footer>
     <script src="scripts/scripts.js"></script>
 </body>

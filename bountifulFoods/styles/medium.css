@@ -7,7 +7,7 @@
         font-family: 'Edu NSW ACT Foundation', cursive;
     }
     header{
-        background-color: #4e8531ff;
+        background-color: #32511F;
         color: #f6e973ff;
         text-align: center;
         display: grid;
@@ -69,7 +69,7 @@
     }
     .left, .right{
         padding: 20px;
-        background-color: #4e8531ff;
+        background-color: #32511F;
         color: #f6e973ff;
         width: 3rem;
         text-align: center;
@@ -95,7 +95,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         align-items: center;
-        background-color: #4e8531ff;
+        background-color: #32511F;
         color: #f6e973ff;
     }
     #weatherTitle{
@@ -104,7 +104,7 @@
         text-decoration: underline;
         font-size: 25px;
     }
-    .weather img, #condition{
+    .weather img, #conditionH{
         grid-column: 2/3;
         grid-row: 2/3;
     }
@@ -135,19 +135,19 @@
     }
     #specialty a{
         text-decoration: none;
-        background-color: #4e8531ff;
+        background-color: #32511F;
         color: #f6e973ff;
         padding: 15px;
         font-size: 30px;
     }
     #specialty a:hover{
         background-color: #f6e973ff;
-        color: #4e8531ff;
+        color: #32511F;
     }
     
     footer{
         text-align: center;
-        background-color: #4e8531ff;
+        background-color: #32511F;
         color: #f6e973ff;
         padding: 10px;
         display: grid;
@@ -181,12 +181,12 @@
     /*fresh*/
     form fieldset{
         margin: 2rem 2rem;
-        border: 1px solid #4e8531ff;
+        border: 1px solid #32511F;
         border-radius: 10px;
         padding: .5rem 2%;
     }
     form legend{
-        color: #4e8531ff;
+        color: #32511F;
         margin: 0 1rem;
         padding: 0 .5rem;
     }
@@ -194,7 +194,7 @@
     form label.top, form div{
         display: block;
         padding-top: 1rem;
-        color: #4e8531ff;
+        color: #32511F;
         font-size: .8rem;
     }
     form label.top input, form label.top select{
@@ -214,7 +214,7 @@
     }
     form input.submitBtn{
         border: none;
-        background-color: #4e8531ff;
+        background-color: #32511F;
         color: #f6e973ff;
         border-radius: 1rem;
         padding: .75rem 1.5rem;
@@ -223,7 +223,7 @@
         max-width: 20rem;
     }
     form input.submitBtn:hover{
-        color: #4e8531ff;
+        color: #32511F;
         background-color: #f6e973ff;
     }
     
@@ -231,11 +231,11 @@
         border-left: black solid 6px;
     }
     form label.top input:required:valid{
-        border-left: #4e8531ff solid 6px;
+        border-left: #32511F solid 6px;
     }
     #home-link{
         text-decoration: none;
-        background-color: #4e8531ff;
+        background-color: #32511F;
         color: #f6e973ff;
         text-align: center;
         padding: 20px;

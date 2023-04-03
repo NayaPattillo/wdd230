@@ -94,7 +94,7 @@
         text-align: center;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        align-items: stretch;
+        align-items: center;
         background-color: #4e8531ff;
         color: #f6e973ff;
     }
@@ -258,5 +258,8 @@
     }
     #aboutUs{
         border-top: 3px solid #f6e973ff;
+    }
+    #aboutUs p{
+        margin: 30px 40px;
     }
 }

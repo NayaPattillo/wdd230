@@ -67,3 +67,24 @@ year.textContent = new Date().getFullYear();
 
 const lastModified = document.querySelector(".lastUpdate");
 lastModified.textContent = new Date(document.lastModified).toLocaleString();
+
+
+
+//fresh
+const inputValues = document.querySelector(".top");
+const form = document.querySelector("#form");
+const log = document.querySelector("#log");
+function logSubmit(event) {
+  log.textContent = `Order: ${inputValues} | Time of Order: ${event.lastModified}`;
+  event.preventDefault();
+}
+form.addEventListener("submit", logSubmit);
+
+let count = 0;
+const btn = document.querySelector(".submitBtn");
+const disp = document.querySelector("orders");
+          
+btn.onclick = function () {
+  count++;
+  disp.innerHTML = count;
+}

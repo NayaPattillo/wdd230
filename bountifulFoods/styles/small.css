@@ -132,8 +132,8 @@
         text-decoration: underline;
     }
     #threeDay{
-        grid-column: 2/3;
-        grid-row: 1/4;
+        grid-column: 3/4;
+        grid-row: 2/4;
     }
     
     #specialty{
